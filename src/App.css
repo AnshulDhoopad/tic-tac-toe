@@ -1,0 +1,44 @@
+body {
+  background-color: #000000;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 20px 20px;
+  border-color: yellow; */
+  
+  background-color: white
+}
+.icon {
+  font-size: 35px;
+  color: #000;
+}
+
+.box:hover {
+  background-color: yellow;
+}
+
+.box {
+  /* width: 170px;
+  height: 70px;
+  margin: 300px 600px;
+  font-size: 40px; */
+  border-radius: 80px;
+  border-style: none;
+  color:white;
+  font-weight: 400;
+  /* background: #ffb5ca; */
+  box-shadow: 5px 5px 10px yellow, -5px -5px 10px yellow;
+}
+
+
